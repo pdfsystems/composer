@@ -8665,6 +8665,200 @@
                 ]
             }
         },
+        "pdfsystems/backup-sdk-laravel": {
+            "1.0.0": {
+                "name": "pdfsystems/backup-sdk-laravel",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdfsystems/backup-sdk-laravel.git",
+                    "reference": "4aa3e597c440102119ed387c3459a01eea6d20a5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdfsystems/backup-sdk-laravel/zipball/4aa3e597c440102119ed387c3459a01eea6d20a5",
+                    "reference": "4aa3e597c440102119ed387c3459a01eea6d20a5",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0||^11.0||^12.0",
+                    "pdfsystems/backup-sdk": "^1.0",
+                    "php": "^8.3",
+                    "spatie/laravel-package-tools": "^1.16"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.14",
+                    "nunomaduro/collision": "^8.1.1||^7.10.0",
+                    "orchestra/testbench": "^10.0.0||^9.0.0||^8.22.0",
+                    "pestphp/pest": "^3.0",
+                    "pestphp/pest-plugin-arch": "^3.0",
+                    "pestphp/pest-plugin-laravel": "^3.0"
+                },
+                "time": "2025-05-14T16:16:09+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Pdfsystems\\Backup\\BackupServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\Backup\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\Backup\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@composer run prepare"
+                    ],
+                    "prepare": [
+                        "@php vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Allows for easy integration of pdfsystems/backup into Laravel apps ",
+                "homepage": "https://github.com/pdfsystems/backup-sdk-laravel",
+                "keywords": [
+                    "PDF Systems, Inc.",
+                    "backup-sdk-laravel",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/pdfsystems/backup-sdk-laravel/tree/1.0.0",
+                    "issues": "https://github.com/pdfsystems/backup-sdk-laravel/issues"
+                },
+                "funding": [
+                    {
+                        "type": "github",
+                        "url": "https://github.com/PDF Systems, Inc."
+                    }
+                ]
+            },
+            "dev-main": {
+                "name": "pdfsystems/backup-sdk-laravel",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdfsystems/backup-sdk-laravel.git",
+                    "reference": "03d554e3758d10b7b883e37570875c56f60bbcd0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdfsystems/backup-sdk-laravel/zipball/03d554e3758d10b7b883e37570875c56f60bbcd0",
+                    "reference": "03d554e3758d10b7b883e37570875c56f60bbcd0",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^10.0||^11.0||^12.0",
+                    "pdfsystems/backup-sdk": "^1.0",
+                    "php": "^8.3",
+                    "spatie/laravel-package-tools": "^1.16"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.14",
+                    "nunomaduro/collision": "^8.1.1||^7.10.0",
+                    "orchestra/testbench": "^10.0.0||^9.0.0||^8.22.0",
+                    "pestphp/pest": "^3.0",
+                    "pestphp/pest-plugin-arch": "^3.0",
+                    "pestphp/pest-plugin-laravel": "^3.0"
+                },
+                "time": "2025-05-14T16:18:05+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Pdfsystems\\Backup\\BackupServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\Backup\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\Backup\\Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@composer run prepare"
+                    ],
+                    "prepare": [
+                        "@php vendor/bin/testbench package:discover --ansi"
+                    ],
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Allows for easy integration of pdfsystems/backup into Laravel apps ",
+                "homepage": "https://github.com/pdfsystems/backup-sdk-laravel",
+                "keywords": [
+                    "PDF Systems, Inc.",
+                    "backup-sdk-laravel",
+                    "laravel"
+                ],
+                "support": {
+                    "source": "https://github.com/pdfsystems/backup-sdk-laravel/tree/main",
+                    "issues": "https://github.com/pdfsystems/backup-sdk-laravel/issues"
+                },
+                "funding": [
+                    {
+                        "type": "github",
+                        "url": "https://github.com/PDF Systems, Inc."
+                    }
+                ]
+            }
+        },
         "pdfsystems/order-track-sdk": {
             "0.1.0": {
                 "name": "pdfsystems/order-track-sdk",
