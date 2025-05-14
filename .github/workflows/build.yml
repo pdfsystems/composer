@@ -3,6 +3,8 @@ on:
   push:
   # Allow external repositories to trigger builds
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,8 +12,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: php-actions/composer@v6
         with:
-            php_version: "7.4"
-            version: 1
+          php_version: "7.4"
+          version: 1
 
       - name: Configure access token
         run: composer -g config github-oauth.github.com ${{ secrets.GITHUB_TOKEN }}
