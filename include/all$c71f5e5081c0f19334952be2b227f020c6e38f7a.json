@@ -8664,19 +8664,19 @@
                     }
                 ]
             },
-            "dev-main": {
+            "1.1.0": {
                 "name": "pdfsystems/backup-sdk",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pdfsystems/backup-sdk.git",
-                    "reference": "8e22d6a5aab04ecb1a301712a2e1723b4bc3ebcb"
+                    "reference": "81bcc683d7801d7932679c4fc182c4c75aef07f4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pdfsystems/backup-sdk/zipball/8e22d6a5aab04ecb1a301712a2e1723b4bc3ebcb",
-                    "reference": "8e22d6a5aab04ecb1a301712a2e1723b4bc3ebcb",
+                    "url": "https://api.github.com/repos/pdfsystems/backup-sdk/zipball/81bcc683d7801d7932679c4fc182c4c75aef07f4",
+                    "reference": "81bcc683d7801d7932679c4fc182c4c75aef07f4",
                     "shasum": ""
                 },
                 "require": {
@@ -8689,7 +8689,82 @@
                     "pestphp/pest": "^3.0",
                     "spatie/ray": "^1.28"
                 },
-                "time": "2025-05-14T18:27:43+00:00",
+                "time": "2025-05-14T19:05:02+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\BackupSdk\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\BackupSdk\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "SDK for interfacing with PDF's application backup provider",
+                "homepage": "https://github.com/pdfsystems/backup-sdk",
+                "keywords": [
+                    "backup-sdk",
+                    "pdfsystems"
+                ],
+                "support": {
+                    "source": "https://github.com/pdfsystems/backup-sdk/tree/1.1.0",
+                    "issues": "https://github.com/pdfsystems/backup-sdk/issues"
+                },
+                "funding": [
+                    {
+                        "type": "github",
+                        "url": "https://github.com/pdfsystems"
+                    }
+                ]
+            },
+            "dev-main": {
+                "name": "pdfsystems/backup-sdk",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdfsystems/backup-sdk.git",
+                    "reference": "5b79a450d814c534132da3f3487f3124e975b70f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdfsystems/backup-sdk/zipball/5b79a450d814c534132da3f3487f3124e975b70f",
+                    "reference": "5b79a450d814c534132da3f3487f3124e975b70f",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-fileinfo": "*",
+                    "php": "^8.2",
+                    "rpungello/sdk-client": "^1.14"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "pestphp/pest": "^3.0",
+                    "spatie/ray": "^1.28"
+                },
+                "time": "2025-05-14T19:06:02+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
