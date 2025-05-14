@@ -7,7 +7,8 @@
     { "type": "vcs", "url": "https://github.com/pdf-systems-inc/applied-textiles-sdk.git" },
     { "type": "vcs", "url": "https://github.com/pdf-systems-inc/shipping-integration-sdk.git" },
     { "type": "vcs", "url": "https://github.com/pdfsystems/order-track-sdk.git" },
-    { "type": "vcs", "url": "https://github.com/pdfsystems/backup-sdk.git" }
+    { "type": "vcs", "url": "https://github.com/pdfsystems/backup-sdk.git" },
+    { "type": "vcs", "url": "https://github.com/pdfsystems/backup-sdk-laravel.git" }
   ],
   "require-all": true
 }
