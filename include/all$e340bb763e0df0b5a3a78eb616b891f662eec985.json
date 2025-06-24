@@ -7441,6 +7441,83 @@
                     }
                 ]
             },
+            "2.25.1": {
+                "name": "pdf-systems-inc/web-distribution-sdk",
+                "version": "2.25.1",
+                "version_normalized": "2.25.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdf-systems-inc/web-distribution-sdk.git",
+                    "reference": "bf7741d59628c76015766e7350e2233490e27d05"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdf-systems-inc/web-distribution-sdk/zipball/bf7741d59628c76015766e7350e2233490e27d05",
+                    "reference": "bf7741d59628c76015766e7350e2233490e27d05",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.4",
+                    "php": "^8.1",
+                    "rpungello/sdk-client": "^1.11",
+                    "spatie/data-transfer-object": "^3.8",
+                    "symfony/validator": "^6.1"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.0",
+                    "pestphp/pest": "^1.20",
+                    "spatie/ray": "^1.28"
+                },
+                "time": "2025-06-24T16:33:48+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\WebDistributionSdk\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\WebDistributionSdk\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "PHP SDK for Web Distribution",
+                "homepage": "https://github.com/pdf-systems-inc/web-distribution-sdk",
+                "keywords": [
+                    "pdf-systems-inc",
+                    "web-distribution-sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/pdf-systems-inc/web-distribution-sdk/tree/2.25.1",
+                    "issues": "https://github.com/pdf-systems-inc/web-distribution-sdk/issues"
+                },
+                "funding": [
+                    {
+                        "type": "github",
+                        "url": "https://github.com/pdf-systems-inc"
+                    }
+                ]
+            },
             "2.3.0": {
                 "name": "pdf-systems-inc/web-distribution-sdk",
                 "version": "2.3.0",
@@ -8295,12 +8372,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pdf-systems-inc/web-distribution-sdk.git",
-                    "reference": "7c782d7ee57fe54adb4937f3a1bc9a39940cd158"
+                    "reference": "2317c28ba90c780837cef0e53666c1e35246402c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/web-distribution-sdk/zipball/7c782d7ee57fe54adb4937f3a1bc9a39940cd158",
-                    "reference": "7c782d7ee57fe54adb4937f3a1bc9a39940cd158",
+                    "url": "https://api.github.com/repos/pdf-systems-inc/web-distribution-sdk/zipball/2317c28ba90c780837cef0e53666c1e35246402c",
+                    "reference": "2317c28ba90c780837cef0e53666c1e35246402c",
                     "shasum": ""
                 },
                 "require": {
@@ -8315,7 +8392,7 @@
                     "pestphp/pest": "^1.20",
                     "spatie/ray": "^1.28"
                 },
-                "time": "2025-06-24T15:49:13+00:00",
+                "time": "2025-06-24T16:35:13+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
