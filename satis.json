@@ -3,7 +3,7 @@
   "homepage": "https://composer.pdfsystems.com",
   "repositories": [
     { "type": "vcs", "url": "https://github.com/pdf-systems-inc/laravel-shipping.git" },
-    { "type": "vcs", "url": "https://github.com/pdf-systems-inc/web-distribution-sdk.git" },
+    { "type": "vcs", "url": "https://github.com/pdfsystems/web-distribution-sdk.git" },
     { "type": "vcs", "url": "https://github.com/pdf-systems-inc/applied-textiles-sdk.git" },
     { "type": "vcs", "url": "https://github.com/pdf-systems-inc/shipping-integration-sdk.git" },
     { "type": "vcs", "url": "https://github.com/pdfsystems/order-track-sdk.git" },
