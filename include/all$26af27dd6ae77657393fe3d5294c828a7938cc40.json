@@ -3248,12 +3248,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pdfsystems/backup-sdk-laravel.git",
-                    "reference": "03d554e3758d10b7b883e37570875c56f60bbcd0"
+                    "reference": "7e9cc7c08b732e63008977e05195c58de0a48f32"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pdfsystems/backup-sdk-laravel/zipball/03d554e3758d10b7b883e37570875c56f60bbcd0",
-                    "reference": "03d554e3758d10b7b883e37570875c56f60bbcd0",
+                    "url": "https://api.github.com/repos/pdfsystems/backup-sdk-laravel/zipball/7e9cc7c08b732e63008977e05195c58de0a48f32",
+                    "reference": "7e9cc7c08b732e63008977e05195c58de0a48f32",
                     "shasum": ""
                 },
                 "require": {
@@ -3270,7 +3270,7 @@
                     "pestphp/pest-plugin-arch": "^3.0",
                     "pestphp/pest-plugin-laravel": "^3.0"
                 },
-                "time": "2025-05-14T16:18:05+00:00",
+                "time": "2025-09-11T14:58:18+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
