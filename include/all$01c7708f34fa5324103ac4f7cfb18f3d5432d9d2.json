@@ -911,19 +911,19 @@
                     }
                 ]
             },
-            "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-6": {
+            "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-7": {
                 "name": "pdf-systems-inc/applied-textiles-sdk",
-                "version": "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-6",
-                "version_normalized": "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-6",
+                "version": "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-7",
+                "version_normalized": "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-7",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pdf-systems-inc/applied-textiles-sdk.git",
-                    "reference": "a79f994abaa12ad8e7f287fbcbdfe7998c304b14"
+                    "reference": "d6b6d25a18822a4b0fcfefb6ec2fb12b57f8e5ed"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/applied-textiles-sdk/zipball/a79f994abaa12ad8e7f287fbcbdfe7998c304b14",
-                    "reference": "a79f994abaa12ad8e7f287fbcbdfe7998c304b14",
+                    "url": "https://api.github.com/repos/pdf-systems-inc/applied-textiles-sdk/zipball/d6b6d25a18822a4b0fcfefb6ec2fb12b57f8e5ed",
+                    "reference": "d6b6d25a18822a4b0fcfefb6ec2fb12b57f8e5ed",
                     "shasum": ""
                 },
                 "require": {
@@ -937,7 +937,7 @@
                     "pestphp/pest": "^1.20",
                     "spatie/ray": "^1.28"
                 },
-                "time": "2025-06-16T20:20:21+00:00",
+                "time": "2025-10-13T18:04:26+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -977,7 +977,7 @@
                     "applied-textiles-sdk"
                 ],
                 "support": {
-                    "source": "https://github.com/pdf-systems-inc/applied-textiles-sdk/tree/dependabot/github_actions/stefanzweifel/git-auto-commit-action-6",
+                    "source": "https://github.com/pdf-systems-inc/applied-textiles-sdk/tree/dependabot/github_actions/stefanzweifel/git-auto-commit-action-7",
                     "issues": "https://github.com/pdf-systems-inc/applied-textiles-sdk/issues"
                 },
                 "funding": [
@@ -5731,31 +5731,31 @@
                     }
                 ]
             },
-            "dev-main": {
+            "2.0.0": {
                 "name": "pdfsystems/order-track-sdk",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pdfsystems/order-track-sdk.git",
-                    "reference": "0c16832f1538389feecf20f3889d48e55c399c31"
+                    "reference": "dd3ee479cf3d24ba4593ce5f0835d3b513e2a61f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pdfsystems/order-track-sdk/zipball/0c16832f1538389feecf20f3889d48e55c399c31",
-                    "reference": "0c16832f1538389feecf20f3889d48e55c399c31",
+                    "url": "https://api.github.com/repos/pdfsystems/order-track-sdk/zipball/dd3ee479cf3d24ba4593ce5f0835d3b513e2a61f",
+                    "reference": "dd3ee479cf3d24ba4593ce5f0835d3b513e2a61f",
                     "shasum": ""
                 },
                 "require": {
                     "php": "^8.1",
-                    "rpungello/sdk-client": "dev-main"
+                    "rpungello/sdk-client": "^2.0"
                 },
                 "require-dev": {
                     "friendsofphp/php-cs-fixer": "^3.13",
                     "pestphp/pest": "^1.20",
                     "spatie/ray": "^1.28"
                 },
-                "time": "2025-10-13T16:35:24+00:00",
+                "time": "2025-10-13T20:40:31+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -5796,7 +5796,82 @@
                     "pdf-systems-inc"
                 ],
                 "support": {
-                    "source": "https://github.com/pdfsystems/order-track-sdk/tree/main",
+                    "source": "https://github.com/pdfsystems/order-track-sdk/tree/2.0.0",
+                    "issues": "https://github.com/pdfsystems/order-track-sdk/issues"
+                },
+                "funding": [
+                    {
+                        "type": "github",
+                        "url": "https://github.com/pdf-systems-inc"
+                    }
+                ]
+            },
+            "dev-main": {
+                "name": "pdfsystems/order-track-sdk",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdfsystems/order-track-sdk.git",
+                    "reference": "dd3ee479cf3d24ba4593ce5f0835d3b513e2a61f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdfsystems/order-track-sdk/zipball/dd3ee479cf3d24ba4593ce5f0835d3b513e2a61f",
+                    "reference": "dd3ee479cf3d24ba4593ce5f0835d3b513e2a61f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.1",
+                    "rpungello/sdk-client": "^2.0"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.13",
+                    "pestphp/pest": "^1.20",
+                    "spatie/ray": "^1.28"
+                },
+                "time": "2025-10-13T20:40:31+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\OrderTrackSdk\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\OrderTrackSdk\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "SDK for Order-Track v4 API",
+                "homepage": "https://github.com/pdfsystems/order-track-sdk",
+                "keywords": [
+                    "order-track",
+                    "order-track-sdk",
+                    "pdf-systems-inc"
+                ],
+                "support": {
+                    "source": "https://github.com/pdfsystems/order-track-sdk/tree/2.0.0",
                     "issues": "https://github.com/pdfsystems/order-track-sdk/issues"
                 },
                 "funding": [
