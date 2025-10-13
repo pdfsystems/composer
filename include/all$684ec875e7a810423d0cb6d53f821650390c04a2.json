@@ -2318,19 +2318,19 @@
                     }
                 ]
             },
-            "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-6": {
+            "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-7": {
                 "name": "pdf-systems-inc/shipping-integration-sdk",
-                "version": "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-6",
-                "version_normalized": "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-6",
+                "version": "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-7",
+                "version_normalized": "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-7",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pdf-systems-inc/shipping-integration-sdk.git",
-                    "reference": "75cee8ee16cd80ad6aa79c16ff9c5671c440ee43"
+                    "reference": "d50a7f3120f93ed20721771e8ac94d6f388a1608"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/shipping-integration-sdk/zipball/75cee8ee16cd80ad6aa79c16ff9c5671c440ee43",
-                    "reference": "75cee8ee16cd80ad6aa79c16ff9c5671c440ee43",
+                    "url": "https://api.github.com/repos/pdf-systems-inc/shipping-integration-sdk/zipball/d50a7f3120f93ed20721771e8ac94d6f388a1608",
+                    "reference": "d50a7f3120f93ed20721771e8ac94d6f388a1608",
                     "shasum": ""
                 },
                 "require": {
@@ -2343,7 +2343,7 @@
                     "pestphp/pest": "^1.20",
                     "spatie/ray": "^1.28"
                 },
-                "time": "2025-06-16T11:18:07+00:00",
+                "time": "2025-10-13T10:46:38+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -2383,7 +2383,7 @@
                     "shipping-integration-sdk"
                 ],
                 "support": {
-                    "source": "https://github.com/pdf-systems-inc/shipping-integration-sdk/tree/dependabot/github_actions/stefanzweifel/git-auto-commit-action-6",
+                    "source": "https://github.com/pdf-systems-inc/shipping-integration-sdk/tree/dependabot/github_actions/stefanzweifel/git-auto-commit-action-7",
                     "issues": "https://github.com/pdf-systems-inc/shipping-integration-sdk/issues"
                 },
                 "funding": [
@@ -5738,24 +5738,24 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pdfsystems/order-track-sdk.git",
-                    "reference": "d32f43681cbef6f77afd1bd2de27064fc41f638b"
+                    "reference": "0c16832f1538389feecf20f3889d48e55c399c31"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pdfsystems/order-track-sdk/zipball/d32f43681cbef6f77afd1bd2de27064fc41f638b",
-                    "reference": "d32f43681cbef6f77afd1bd2de27064fc41f638b",
+                    "url": "https://api.github.com/repos/pdfsystems/order-track-sdk/zipball/0c16832f1538389feecf20f3889d48e55c399c31",
+                    "reference": "0c16832f1538389feecf20f3889d48e55c399c31",
                     "shasum": ""
                 },
                 "require": {
                     "php": "^8.1",
-                    "rpungello/sdk-client": "^1.13"
+                    "rpungello/sdk-client": "dev-main"
                 },
                 "require-dev": {
                     "friendsofphp/php-cs-fixer": "^3.13",
                     "pestphp/pest": "^1.20",
                     "spatie/ray": "^1.28"
                 },
-                "time": "2025-08-18T20:07:20+00:00",
+                "time": "2025-10-13T16:35:24+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
