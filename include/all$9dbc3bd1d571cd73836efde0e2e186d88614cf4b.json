@@ -4592,19 +4592,19 @@
                     }
                 ]
             },
-            "dev-main": {
+            "2.0.0": {
                 "name": "pdfsystems/shipping-integration-sdk",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "2.0.0",
+                "version_normalized": "2.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pdfsystems/shipping-integration-sdk.git",
-                    "reference": "661866e54ad85ceb9a395de32586b9e547922b3d"
+                    "reference": "28f47bd8e27ce4548297f7b59eba2647b9ab2aa3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pdfsystems/shipping-integration-sdk/zipball/661866e54ad85ceb9a395de32586b9e547922b3d",
-                    "reference": "661866e54ad85ceb9a395de32586b9e547922b3d",
+                    "url": "https://api.github.com/repos/pdfsystems/shipping-integration-sdk/zipball/28f47bd8e27ce4548297f7b59eba2647b9ab2aa3",
+                    "reference": "28f47bd8e27ce4548297f7b59eba2647b9ab2aa3",
                     "shasum": ""
                 },
                 "require": {
@@ -4617,7 +4617,82 @@
                     "pestphp/pest": "^1.20",
                     "spatie/ray": "^1.28"
                 },
-                "time": "2025-10-14T15:23:31+00:00",
+                "time": "2025-10-14T15:29:59+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\ShippingIntegrationSdk\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\ShippingIntegrationSdk\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "SDK for interfacing with PDF's shipping platform",
+                "homepage": "https://github.com/pdfsystems/shipping-integration-sdk",
+                "keywords": [
+                    "pdf-systems-inc",
+                    "shipping-integration-sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/pdfsystems/shipping-integration-sdk/tree/2.0.0",
+                    "issues": "https://github.com/pdfsystems/shipping-integration-sdk/issues"
+                },
+                "funding": [
+                    {
+                        "type": "github",
+                        "url": "https://github.com/pdfsystems"
+                    }
+                ]
+            },
+            "dev-main": {
+                "name": "pdfsystems/shipping-integration-sdk",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdfsystems/shipping-integration-sdk.git",
+                    "reference": "7e10ca11d3e3d87fc36223c5937b655cdc2e8a23"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdfsystems/shipping-integration-sdk/zipball/7e10ca11d3e3d87fc36223c5937b655cdc2e8a23",
+                    "reference": "7e10ca11d3e3d87fc36223c5937b655cdc2e8a23",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.1",
+                    "rpungello/sdk-client": ">=2.1.3 <3.0",
+                    "spatie/data-transfer-object": "^3.9"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.2",
+                    "pestphp/pest": "^1.20",
+                    "spatie/ray": "^1.28"
+                },
+                "time": "2025-10-14T15:31:27+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
