@@ -1,1069 +1,5 @@
 {
     "packages": {
-        "pdf-systems-inc/applied-textiles-sdk": {
-            "0.1.0": {
-                "name": "pdf-systems-inc/applied-textiles-sdk",
-                "version": "0.1.0",
-                "version_normalized": "0.1.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/applied-textiles-sdk.git",
-                    "reference": "9798fc81e846a157d799d4dbc43150482e39310d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/applied-textiles-sdk/zipball/9798fc81e846a157d799d4dbc43150482e39310d",
-                    "reference": "9798fc81e846a157d799d4dbc43150482e39310d",
-                    "shasum": ""
-                },
-                "require": {
-                    "myclabs/php-enum": "^1.8",
-                    "php": "^7.4",
-                    "ramsey/collection": "^1.3"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.13",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2023-03-29T14:17:15+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for Applied Textiles",
-                "homepage": "https://github.com/pdf-systems-inc/applied-textiles-sdk",
-                "keywords": [
-                    "PDF Systems, Inc.",
-                    "applied-textiles-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/applied-textiles-sdk/tree/0.1.0",
-                    "issues": "https://github.com/pdf-systems-inc/applied-textiles-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/PDF Systems, Inc."
-                    }
-                ]
-            },
-            "0.1.1": {
-                "name": "pdf-systems-inc/applied-textiles-sdk",
-                "version": "0.1.1",
-                "version_normalized": "0.1.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/applied-textiles-sdk.git",
-                    "reference": "30774a66a36b4f455dc18ae84bbd2e452dcf49e9"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/applied-textiles-sdk/zipball/30774a66a36b4f455dc18ae84bbd2e452dcf49e9",
-                    "reference": "30774a66a36b4f455dc18ae84bbd2e452dcf49e9",
-                    "shasum": ""
-                },
-                "require": {
-                    "myclabs/php-enum": "^1.8",
-                    "php": "^7.4",
-                    "ramsey/collection": "^1.3"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.13",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2023-04-04T13:26:44+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for Applied Textiles",
-                "homepage": "https://github.com/pdf-systems-inc/applied-textiles-sdk",
-                "keywords": [
-                    "PDF Systems, Inc.",
-                    "applied-textiles-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/applied-textiles-sdk/tree/0.1.1",
-                    "issues": "https://github.com/pdf-systems-inc/applied-textiles-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/PDF Systems, Inc."
-                    }
-                ]
-            },
-            "0.2.0": {
-                "name": "pdf-systems-inc/applied-textiles-sdk",
-                "version": "0.2.0",
-                "version_normalized": "0.2.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/applied-textiles-sdk.git",
-                    "reference": "d2dfd3408e1479e2590515081ecdef16f5d2e5d9"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/applied-textiles-sdk/zipball/d2dfd3408e1479e2590515081ecdef16f5d2e5d9",
-                    "reference": "d2dfd3408e1479e2590515081ecdef16f5d2e5d9",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-ftp": "*",
-                    "myclabs/php-enum": "^1.8",
-                    "php": "^7.4",
-                    "ramsey/collection": "^1.3"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.13",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2023-04-04T15:26:31+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for Applied Textiles",
-                "homepage": "https://github.com/pdf-systems-inc/applied-textiles-sdk",
-                "keywords": [
-                    "PDF Systems, Inc.",
-                    "applied-textiles-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/applied-textiles-sdk/tree/0.2.0",
-                    "issues": "https://github.com/pdf-systems-inc/applied-textiles-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/PDF Systems, Inc."
-                    }
-                ]
-            },
-            "0.2.1": {
-                "name": "pdf-systems-inc/applied-textiles-sdk",
-                "version": "0.2.1",
-                "version_normalized": "0.2.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/applied-textiles-sdk.git",
-                    "reference": "904bdc9008e3402bd84a792bca488eee9ee6a928"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/applied-textiles-sdk/zipball/904bdc9008e3402bd84a792bca488eee9ee6a928",
-                    "reference": "904bdc9008e3402bd84a792bca488eee9ee6a928",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-ftp": "*",
-                    "myclabs/php-enum": "^1.8",
-                    "php": "^7.4",
-                    "ramsey/collection": "^1.3"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.13",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2023-04-04T19:01:40+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for Applied Textiles",
-                "homepage": "https://github.com/pdf-systems-inc/applied-textiles-sdk",
-                "keywords": [
-                    "PDF Systems, Inc.",
-                    "applied-textiles-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/applied-textiles-sdk/tree/0.2.1",
-                    "issues": "https://github.com/pdf-systems-inc/applied-textiles-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/PDF Systems, Inc."
-                    }
-                ]
-            },
-            "0.2.2": {
-                "name": "pdf-systems-inc/applied-textiles-sdk",
-                "version": "0.2.2",
-                "version_normalized": "0.2.2.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/applied-textiles-sdk.git",
-                    "reference": "bbc62094b48847b43271a84ee8fde4c0f68a85fc"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/applied-textiles-sdk/zipball/bbc62094b48847b43271a84ee8fde4c0f68a85fc",
-                    "reference": "bbc62094b48847b43271a84ee8fde4c0f68a85fc",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-ftp": "*",
-                    "myclabs/php-enum": "^1.8",
-                    "php": "^7.4",
-                    "ramsey/collection": "^1.3"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.13",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2023-04-11T13:52:48+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for Applied Textiles",
-                "homepage": "https://github.com/pdf-systems-inc/applied-textiles-sdk",
-                "keywords": [
-                    "PDF Systems, Inc.",
-                    "applied-textiles-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/applied-textiles-sdk/tree/0.2.2",
-                    "issues": "https://github.com/pdf-systems-inc/applied-textiles-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/PDF Systems, Inc."
-                    }
-                ]
-            },
-            "0.3.0": {
-                "name": "pdf-systems-inc/applied-textiles-sdk",
-                "version": "0.3.0",
-                "version_normalized": "0.3.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/applied-textiles-sdk.git",
-                    "reference": "3c2beac54a4f8819b963a18f0d9eee1017cfa9f9"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/applied-textiles-sdk/zipball/3c2beac54a4f8819b963a18f0d9eee1017cfa9f9",
-                    "reference": "3c2beac54a4f8819b963a18f0d9eee1017cfa9f9",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-ftp": "*",
-                    "myclabs/php-enum": "^1.8",
-                    "php": "^7.4",
-                    "ramsey/collection": "^1.3"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.13",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2023-08-16T15:33:34+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for Applied Textiles",
-                "homepage": "https://github.com/pdf-systems-inc/applied-textiles-sdk",
-                "keywords": [
-                    "PDF Systems, Inc.",
-                    "applied-textiles-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/applied-textiles-sdk/tree/0.3.0",
-                    "issues": "https://github.com/pdf-systems-inc/applied-textiles-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/PDF Systems, Inc."
-                    }
-                ]
-            },
-            "0.3.1": {
-                "name": "pdf-systems-inc/applied-textiles-sdk",
-                "version": "0.3.1",
-                "version_normalized": "0.3.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/applied-textiles-sdk.git",
-                    "reference": "09e83638ae9819cac9f2317378c414ad0215e810"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/applied-textiles-sdk/zipball/09e83638ae9819cac9f2317378c414ad0215e810",
-                    "reference": "09e83638ae9819cac9f2317378c414ad0215e810",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-ftp": "*",
-                    "myclabs/php-enum": "^1.8",
-                    "php": "^7.4",
-                    "ramsey/collection": "^1.3"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.13",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2023-08-16T16:06:34+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for Applied Textiles",
-                "homepage": "https://github.com/pdf-systems-inc/applied-textiles-sdk",
-                "keywords": [
-                    "PDF Systems, Inc.",
-                    "applied-textiles-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/applied-textiles-sdk/tree/0.3.1",
-                    "issues": "https://github.com/pdf-systems-inc/applied-textiles-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/PDF Systems, Inc."
-                    }
-                ]
-            },
-            "0.4.0": {
-                "name": "pdf-systems-inc/applied-textiles-sdk",
-                "version": "0.4.0",
-                "version_normalized": "0.4.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/applied-textiles-sdk.git",
-                    "reference": "4d02a17b163ab1e650655d33ba9376c6c97de6a4"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/applied-textiles-sdk/zipball/4d02a17b163ab1e650655d33ba9376c6c97de6a4",
-                    "reference": "4d02a17b163ab1e650655d33ba9376c6c97de6a4",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-ftp": "*",
-                    "myclabs/php-enum": "^1.8",
-                    "php": "^7.4",
-                    "ramsey/collection": "^1.3"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.13",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2023-08-25T15:22:54+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for Applied Textiles",
-                "homepage": "https://github.com/pdf-systems-inc/applied-textiles-sdk",
-                "keywords": [
-                    "PDF Systems, Inc.",
-                    "applied-textiles-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/applied-textiles-sdk/tree/0.4.0",
-                    "issues": "https://github.com/pdf-systems-inc/applied-textiles-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/PDF Systems, Inc."
-                    }
-                ]
-            },
-            "0.4.1": {
-                "name": "pdf-systems-inc/applied-textiles-sdk",
-                "version": "0.4.1",
-                "version_normalized": "0.4.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/applied-textiles-sdk.git",
-                    "reference": "0e4352f9e9e00f4a9bf3a0cc556fad139e2a573d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/applied-textiles-sdk/zipball/0e4352f9e9e00f4a9bf3a0cc556fad139e2a573d",
-                    "reference": "0e4352f9e9e00f4a9bf3a0cc556fad139e2a573d",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-ftp": "*",
-                    "myclabs/php-enum": "^1.8",
-                    "php": "^7.4",
-                    "ramsey/collection": "^1.3"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.13",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2023-08-25T18:51:36+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for Applied Textiles",
-                "homepage": "https://github.com/pdf-systems-inc/applied-textiles-sdk",
-                "keywords": [
-                    "PDF Systems, Inc.",
-                    "applied-textiles-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/applied-textiles-sdk/tree/0.4.1",
-                    "issues": "https://github.com/pdf-systems-inc/applied-textiles-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/PDF Systems, Inc."
-                    }
-                ]
-            },
-            "0.4.2": {
-                "name": "pdf-systems-inc/applied-textiles-sdk",
-                "version": "0.4.2",
-                "version_normalized": "0.4.2.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/applied-textiles-sdk.git",
-                    "reference": "fdc100316be5c916d4ac0cfbc90a84be30f4b2a0"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/applied-textiles-sdk/zipball/fdc100316be5c916d4ac0cfbc90a84be30f4b2a0",
-                    "reference": "fdc100316be5c916d4ac0cfbc90a84be30f4b2a0",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-ftp": "*",
-                    "myclabs/php-enum": "^1.8",
-                    "php": "^7.4",
-                    "ramsey/collection": "^1.3"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.13",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2023-09-12T15:07:09+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for Applied Textiles",
-                "homepage": "https://github.com/pdf-systems-inc/applied-textiles-sdk",
-                "keywords": [
-                    "PDF Systems, Inc.",
-                    "applied-textiles-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/applied-textiles-sdk/tree/0.4.2",
-                    "issues": "https://github.com/pdf-systems-inc/applied-textiles-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/PDF Systems, Inc."
-                    }
-                ]
-            },
-            "0.4.3": {
-                "name": "pdf-systems-inc/applied-textiles-sdk",
-                "version": "0.4.3",
-                "version_normalized": "0.4.3.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/applied-textiles-sdk.git",
-                    "reference": "6c9fd2a04b755ba4a1aae33fa5eb055b8f98c926"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/applied-textiles-sdk/zipball/6c9fd2a04b755ba4a1aae33fa5eb055b8f98c926",
-                    "reference": "6c9fd2a04b755ba4a1aae33fa5eb055b8f98c926",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-ftp": "*",
-                    "myclabs/php-enum": "^1.8",
-                    "php": "^7.4",
-                    "ramsey/collection": "^1.3"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.13",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2023-09-12T18:55:23+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for Applied Textiles",
-                "homepage": "https://github.com/pdf-systems-inc/applied-textiles-sdk",
-                "keywords": [
-                    "PDF Systems, Inc.",
-                    "applied-textiles-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/applied-textiles-sdk/tree/0.4.3",
-                    "issues": "https://github.com/pdf-systems-inc/applied-textiles-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/PDF Systems, Inc."
-                    }
-                ]
-            },
-            "dev-dependabot/github_actions/actions/checkout-5": {
-                "name": "pdf-systems-inc/applied-textiles-sdk",
-                "version": "dev-dependabot/github_actions/actions/checkout-5",
-                "version_normalized": "dev-dependabot/github_actions/actions/checkout-5",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/applied-textiles-sdk.git",
-                    "reference": "9d63bc93428c1202e51e80b8144c8a8e062bbe5b"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/applied-textiles-sdk/zipball/9d63bc93428c1202e51e80b8144c8a8e062bbe5b",
-                    "reference": "9d63bc93428c1202e51e80b8144c8a8e062bbe5b",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-ftp": "*",
-                    "myclabs/php-enum": "^1.8",
-                    "php": "^7.4",
-                    "ramsey/collection": "^1.3"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.13",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2025-08-12T02:33:38+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for Applied Textiles",
-                "homepage": "https://github.com/pdf-systems-inc/applied-textiles-sdk",
-                "keywords": [
-                    "PDF Systems, Inc.",
-                    "applied-textiles-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/applied-textiles-sdk/tree/dependabot/github_actions/actions/checkout-5",
-                    "issues": "https://github.com/pdf-systems-inc/applied-textiles-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/PDF Systems, Inc."
-                    }
-                ]
-            },
-            "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-7": {
-                "name": "pdf-systems-inc/applied-textiles-sdk",
-                "version": "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-7",
-                "version_normalized": "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-7",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/applied-textiles-sdk.git",
-                    "reference": "d6b6d25a18822a4b0fcfefb6ec2fb12b57f8e5ed"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/applied-textiles-sdk/zipball/d6b6d25a18822a4b0fcfefb6ec2fb12b57f8e5ed",
-                    "reference": "d6b6d25a18822a4b0fcfefb6ec2fb12b57f8e5ed",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-ftp": "*",
-                    "myclabs/php-enum": "^1.8",
-                    "php": "^7.4",
-                    "ramsey/collection": "^1.3"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.13",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2025-10-13T18:04:26+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for Applied Textiles",
-                "homepage": "https://github.com/pdf-systems-inc/applied-textiles-sdk",
-                "keywords": [
-                    "PDF Systems, Inc.",
-                    "applied-textiles-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/applied-textiles-sdk/tree/dependabot/github_actions/stefanzweifel/git-auto-commit-action-7",
-                    "issues": "https://github.com/pdf-systems-inc/applied-textiles-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/PDF Systems, Inc."
-                    }
-                ]
-            },
-            "dev-main": {
-                "name": "pdf-systems-inc/applied-textiles-sdk",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/applied-textiles-sdk.git",
-                    "reference": "6c5a89375b819fa63dd783811e450c8c65511c06"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/applied-textiles-sdk/zipball/6c5a89375b819fa63dd783811e450c8c65511c06",
-                    "reference": "6c5a89375b819fa63dd783811e450c8c65511c06",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-ftp": "*",
-                    "myclabs/php-enum": "^1.8",
-                    "php": "^7.4",
-                    "ramsey/collection": "^1.3"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.13",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2025-05-12T18:48:35+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\AppliedTextilesSDK\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for Applied Textiles",
-                "homepage": "https://github.com/pdf-systems-inc/applied-textiles-sdk",
-                "keywords": [
-                    "PDF Systems, Inc.",
-                    "applied-textiles-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/applied-textiles-sdk/tree/main",
-                    "issues": "https://github.com/pdf-systems-inc/applied-textiles-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/PDF Systems, Inc."
-                    }
-                ]
-            }
-        },
         "pdf-systems-inc/pdf-shipping": {
             "1.0.0": {
                 "name": "pdf-systems-inc/pdf-shipping",
@@ -1865,608 +801,6 @@
                     "source": "https://github.com/pdf-systems-inc/laravel-shipping/tree/main",
                     "issues": "https://github.com/pdf-systems-inc/laravel-shipping/issues"
                 }
-            }
-        },
-        "pdf-systems-inc/shipping-integration-sdk": {
-            "1.0.0": {
-                "name": "pdf-systems-inc/shipping-integration-sdk",
-                "version": "1.0.0",
-                "version_normalized": "1.0.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/shipping-integration-sdk.git",
-                    "reference": "173a44526c5557f429f0329097c52261d8e11593"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/shipping-integration-sdk/zipball/173a44526c5557f429f0329097c52261d8e11593",
-                    "reference": "173a44526c5557f429f0329097c52261d8e11593",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "^8.1",
-                    "rpungello/sdk-client": ">=1.2.0 <2.0",
-                    "spatie/data-transfer-object": "^3.9"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.2",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2023-08-09T16:20:09+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\ShippingIntegrationSdk\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\ShippingIntegrationSdk\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for interfacing with PDF's shipping platform",
-                "homepage": "https://github.com/pdf-systems-inc/shipping-integration-sdk",
-                "keywords": [
-                    "pdf-systems-inc",
-                    "shipping-integration-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/shipping-integration-sdk/tree/1.0.0",
-                    "issues": "https://github.com/pdf-systems-inc/shipping-integration-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/pdf-systems-inc"
-                    }
-                ]
-            },
-            "1.1.0": {
-                "name": "pdf-systems-inc/shipping-integration-sdk",
-                "version": "1.1.0",
-                "version_normalized": "1.1.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/shipping-integration-sdk.git",
-                    "reference": "f22730ddde19f0da78131da9f68f7e3337ff0a9b"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/shipping-integration-sdk/zipball/f22730ddde19f0da78131da9f68f7e3337ff0a9b",
-                    "reference": "f22730ddde19f0da78131da9f68f7e3337ff0a9b",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "^8.1",
-                    "rpungello/sdk-client": ">=1.2.0 <2.0",
-                    "spatie/data-transfer-object": "^3.9"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.2",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2023-08-09T16:57:29+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\ShippingIntegrationSdk\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\ShippingIntegrationSdk\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for interfacing with PDF's shipping platform",
-                "homepage": "https://github.com/pdf-systems-inc/shipping-integration-sdk",
-                "keywords": [
-                    "pdf-systems-inc",
-                    "shipping-integration-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/shipping-integration-sdk/tree/1.1.0",
-                    "issues": "https://github.com/pdf-systems-inc/shipping-integration-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/pdf-systems-inc"
-                    }
-                ]
-            },
-            "1.1.1": {
-                "name": "pdf-systems-inc/shipping-integration-sdk",
-                "version": "1.1.1",
-                "version_normalized": "1.1.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/shipping-integration-sdk.git",
-                    "reference": "f66b078d644da7b0f4b639b9a2ecb2c54ea3120f"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/shipping-integration-sdk/zipball/f66b078d644da7b0f4b639b9a2ecb2c54ea3120f",
-                    "reference": "f66b078d644da7b0f4b639b9a2ecb2c54ea3120f",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "^8.1",
-                    "rpungello/sdk-client": ">=1.2.0 <2.0",
-                    "spatie/data-transfer-object": "^3.9"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.2",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2024-02-08T14:54:47+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\ShippingIntegrationSdk\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\ShippingIntegrationSdk\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for interfacing with PDF's shipping platform",
-                "homepage": "https://github.com/pdf-systems-inc/shipping-integration-sdk",
-                "keywords": [
-                    "pdf-systems-inc",
-                    "shipping-integration-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/shipping-integration-sdk/tree/1.1.1",
-                    "issues": "https://github.com/pdf-systems-inc/shipping-integration-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/pdf-systems-inc"
-                    }
-                ]
-            },
-            "1.1.2": {
-                "name": "pdf-systems-inc/shipping-integration-sdk",
-                "version": "1.1.2",
-                "version_normalized": "1.1.2.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/shipping-integration-sdk.git",
-                    "reference": "a933fe0b3bf977f10ccd5fddc4a3b241e072b10d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/shipping-integration-sdk/zipball/a933fe0b3bf977f10ccd5fddc4a3b241e072b10d",
-                    "reference": "a933fe0b3bf977f10ccd5fddc4a3b241e072b10d",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "^8.1",
-                    "rpungello/sdk-client": ">=1.2.0 <2.0",
-                    "spatie/data-transfer-object": "^3.9"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.2",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2024-02-08T15:03:19+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\ShippingIntegrationSdk\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\ShippingIntegrationSdk\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for interfacing with PDF's shipping platform",
-                "homepage": "https://github.com/pdf-systems-inc/shipping-integration-sdk",
-                "keywords": [
-                    "pdf-systems-inc",
-                    "shipping-integration-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/shipping-integration-sdk/tree/1.1.2",
-                    "issues": "https://github.com/pdf-systems-inc/shipping-integration-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/pdf-systems-inc"
-                    }
-                ]
-            },
-            "1.2.0": {
-                "name": "pdf-systems-inc/shipping-integration-sdk",
-                "version": "1.2.0",
-                "version_normalized": "1.2.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/shipping-integration-sdk.git",
-                    "reference": "fd2835d53741ed9d40d7c630081aed8439c7d921"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/shipping-integration-sdk/zipball/fd2835d53741ed9d40d7c630081aed8439c7d921",
-                    "reference": "fd2835d53741ed9d40d7c630081aed8439c7d921",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "^8.1",
-                    "rpungello/sdk-client": ">=1.2.0 <2.0",
-                    "spatie/data-transfer-object": "^3.9"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.2",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2024-08-26T15:31:27+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\ShippingIntegrationSdk\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\ShippingIntegrationSdk\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for interfacing with PDF's shipping platform",
-                "homepage": "https://github.com/pdf-systems-inc/shipping-integration-sdk",
-                "keywords": [
-                    "pdf-systems-inc",
-                    "shipping-integration-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/shipping-integration-sdk/tree/1.2.0",
-                    "issues": "https://github.com/pdf-systems-inc/shipping-integration-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/pdf-systems-inc"
-                    }
-                ]
-            },
-            "dev-dependabot/github_actions/actions/checkout-5": {
-                "name": "pdf-systems-inc/shipping-integration-sdk",
-                "version": "dev-dependabot/github_actions/actions/checkout-5",
-                "version_normalized": "dev-dependabot/github_actions/actions/checkout-5",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/shipping-integration-sdk.git",
-                    "reference": "ce8762115ecb37c5d3faa74f37b4892d05a3352a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/shipping-integration-sdk/zipball/ce8762115ecb37c5d3faa74f37b4892d05a3352a",
-                    "reference": "ce8762115ecb37c5d3faa74f37b4892d05a3352a",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "^8.1",
-                    "rpungello/sdk-client": ">=1.2.0 <2.0",
-                    "spatie/data-transfer-object": "^3.9"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.2",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2025-08-18T15:03:30+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\ShippingIntegrationSdk\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\ShippingIntegrationSdk\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for interfacing with PDF's shipping platform",
-                "homepage": "https://github.com/pdf-systems-inc/shipping-integration-sdk",
-                "keywords": [
-                    "pdf-systems-inc",
-                    "shipping-integration-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/shipping-integration-sdk/tree/dependabot/github_actions/actions/checkout-5",
-                    "issues": "https://github.com/pdf-systems-inc/shipping-integration-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/pdf-systems-inc"
-                    }
-                ]
-            },
-            "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-7": {
-                "name": "pdf-systems-inc/shipping-integration-sdk",
-                "version": "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-7",
-                "version_normalized": "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-7",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/shipping-integration-sdk.git",
-                    "reference": "d50a7f3120f93ed20721771e8ac94d6f388a1608"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/shipping-integration-sdk/zipball/d50a7f3120f93ed20721771e8ac94d6f388a1608",
-                    "reference": "d50a7f3120f93ed20721771e8ac94d6f388a1608",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "^8.1",
-                    "rpungello/sdk-client": ">=1.2.0 <2.0",
-                    "spatie/data-transfer-object": "^3.9"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.2",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2025-10-13T10:46:38+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\ShippingIntegrationSdk\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\ShippingIntegrationSdk\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for interfacing with PDF's shipping platform",
-                "homepage": "https://github.com/pdf-systems-inc/shipping-integration-sdk",
-                "keywords": [
-                    "pdf-systems-inc",
-                    "shipping-integration-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/shipping-integration-sdk/tree/dependabot/github_actions/stefanzweifel/git-auto-commit-action-7",
-                    "issues": "https://github.com/pdf-systems-inc/shipping-integration-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/pdf-systems-inc"
-                    }
-                ]
-            },
-            "dev-main": {
-                "name": "pdf-systems-inc/shipping-integration-sdk",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdf-systems-inc/shipping-integration-sdk.git",
-                    "reference": "3a66c197ed8ee63571bcf5dff23cf3bfea8b2225"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdf-systems-inc/shipping-integration-sdk/zipball/3a66c197ed8ee63571bcf5dff23cf3bfea8b2225",
-                    "reference": "3a66c197ed8ee63571bcf5dff23cf3bfea8b2225",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": "^8.1",
-                    "rpungello/sdk-client": ">=1.2.0 <2.0",
-                    "spatie/data-transfer-object": "^3.9"
-                },
-                "require-dev": {
-                    "laravel/pint": "^1.2",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2025-07-28T17:12:27+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\ShippingIntegrationSdk\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\ShippingIntegrationSdk\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/pint"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "SDK for interfacing with PDF's shipping platform",
-                "homepage": "https://github.com/pdf-systems-inc/shipping-integration-sdk",
-                "keywords": [
-                    "pdf-systems-inc",
-                    "shipping-integration-sdk"
-                ],
-                "support": {
-                    "source": "https://github.com/pdf-systems-inc/shipping-integration-sdk/tree/main",
-                    "issues": "https://github.com/pdf-systems-inc/shipping-integration-sdk/issues"
-                },
-                "funding": [
-                    {
-                        "type": "github",
-                        "url": "https://github.com/pdf-systems-inc"
-                    }
-                ]
             }
         },
         "pdfsystems/backup-sdk": {
@@ -5878,6 +4212,458 @@
                     {
                         "type": "github",
                         "url": "https://github.com/pdf-systems-inc"
+                    }
+                ]
+            }
+        },
+        "pdfsystems/shipping-integration-sdk": {
+            "1.0.0": {
+                "name": "pdfsystems/shipping-integration-sdk",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdfsystems/shipping-integration-sdk.git",
+                    "reference": "173a44526c5557f429f0329097c52261d8e11593"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdfsystems/shipping-integration-sdk/zipball/173a44526c5557f429f0329097c52261d8e11593",
+                    "reference": "173a44526c5557f429f0329097c52261d8e11593",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.1",
+                    "rpungello/sdk-client": ">=1.2.0 <2.0",
+                    "spatie/data-transfer-object": "^3.9"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.2",
+                    "pestphp/pest": "^1.20",
+                    "spatie/ray": "^1.28"
+                },
+                "time": "2023-08-09T16:20:09+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\ShippingIntegrationSdk\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\ShippingIntegrationSdk\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "SDK for interfacing with PDF's shipping platform",
+                "homepage": "https://github.com/pdf-systems-inc/shipping-integration-sdk",
+                "keywords": [
+                    "pdf-systems-inc",
+                    "shipping-integration-sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/pdfsystems/shipping-integration-sdk/tree/1.0.0",
+                    "issues": "https://github.com/pdfsystems/shipping-integration-sdk/issues"
+                },
+                "funding": [
+                    {
+                        "type": "github",
+                        "url": "https://github.com/pdfsystems"
+                    }
+                ]
+            },
+            "1.1.0": {
+                "name": "pdfsystems/shipping-integration-sdk",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdfsystems/shipping-integration-sdk.git",
+                    "reference": "f22730ddde19f0da78131da9f68f7e3337ff0a9b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdfsystems/shipping-integration-sdk/zipball/f22730ddde19f0da78131da9f68f7e3337ff0a9b",
+                    "reference": "f22730ddde19f0da78131da9f68f7e3337ff0a9b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.1",
+                    "rpungello/sdk-client": ">=1.2.0 <2.0",
+                    "spatie/data-transfer-object": "^3.9"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.2",
+                    "pestphp/pest": "^1.20",
+                    "spatie/ray": "^1.28"
+                },
+                "time": "2023-08-09T16:57:29+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\ShippingIntegrationSdk\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\ShippingIntegrationSdk\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "SDK for interfacing with PDF's shipping platform",
+                "homepage": "https://github.com/pdf-systems-inc/shipping-integration-sdk",
+                "keywords": [
+                    "pdf-systems-inc",
+                    "shipping-integration-sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/pdfsystems/shipping-integration-sdk/tree/1.1.0",
+                    "issues": "https://github.com/pdfsystems/shipping-integration-sdk/issues"
+                },
+                "funding": [
+                    {
+                        "type": "github",
+                        "url": "https://github.com/pdfsystems"
+                    }
+                ]
+            },
+            "1.1.1": {
+                "name": "pdfsystems/shipping-integration-sdk",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdfsystems/shipping-integration-sdk.git",
+                    "reference": "f66b078d644da7b0f4b639b9a2ecb2c54ea3120f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdfsystems/shipping-integration-sdk/zipball/f66b078d644da7b0f4b639b9a2ecb2c54ea3120f",
+                    "reference": "f66b078d644da7b0f4b639b9a2ecb2c54ea3120f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.1",
+                    "rpungello/sdk-client": ">=1.2.0 <2.0",
+                    "spatie/data-transfer-object": "^3.9"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.2",
+                    "pestphp/pest": "^1.20",
+                    "spatie/ray": "^1.28"
+                },
+                "time": "2024-02-08T14:54:47+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\ShippingIntegrationSdk\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\ShippingIntegrationSdk\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "SDK for interfacing with PDF's shipping platform",
+                "homepage": "https://github.com/pdf-systems-inc/shipping-integration-sdk",
+                "keywords": [
+                    "pdf-systems-inc",
+                    "shipping-integration-sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/pdfsystems/shipping-integration-sdk/tree/1.1.1",
+                    "issues": "https://github.com/pdfsystems/shipping-integration-sdk/issues"
+                },
+                "funding": [
+                    {
+                        "type": "github",
+                        "url": "https://github.com/pdfsystems"
+                    }
+                ]
+            },
+            "1.1.2": {
+                "name": "pdfsystems/shipping-integration-sdk",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdfsystems/shipping-integration-sdk.git",
+                    "reference": "a933fe0b3bf977f10ccd5fddc4a3b241e072b10d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdfsystems/shipping-integration-sdk/zipball/a933fe0b3bf977f10ccd5fddc4a3b241e072b10d",
+                    "reference": "a933fe0b3bf977f10ccd5fddc4a3b241e072b10d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.1",
+                    "rpungello/sdk-client": ">=1.2.0 <2.0",
+                    "spatie/data-transfer-object": "^3.9"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.2",
+                    "pestphp/pest": "^1.20",
+                    "spatie/ray": "^1.28"
+                },
+                "time": "2024-02-08T15:03:19+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\ShippingIntegrationSdk\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\ShippingIntegrationSdk\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "SDK for interfacing with PDF's shipping platform",
+                "homepage": "https://github.com/pdf-systems-inc/shipping-integration-sdk",
+                "keywords": [
+                    "pdf-systems-inc",
+                    "shipping-integration-sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/pdfsystems/shipping-integration-sdk/tree/1.1.2",
+                    "issues": "https://github.com/pdfsystems/shipping-integration-sdk/issues"
+                },
+                "funding": [
+                    {
+                        "type": "github",
+                        "url": "https://github.com/pdfsystems"
+                    }
+                ]
+            },
+            "1.2.0": {
+                "name": "pdfsystems/shipping-integration-sdk",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdfsystems/shipping-integration-sdk.git",
+                    "reference": "fd2835d53741ed9d40d7c630081aed8439c7d921"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdfsystems/shipping-integration-sdk/zipball/fd2835d53741ed9d40d7c630081aed8439c7d921",
+                    "reference": "fd2835d53741ed9d40d7c630081aed8439c7d921",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.1",
+                    "rpungello/sdk-client": ">=1.2.0 <2.0",
+                    "spatie/data-transfer-object": "^3.9"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.2",
+                    "pestphp/pest": "^1.20",
+                    "spatie/ray": "^1.28"
+                },
+                "time": "2024-08-26T15:31:27+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\ShippingIntegrationSdk\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\ShippingIntegrationSdk\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "SDK for interfacing with PDF's shipping platform",
+                "homepage": "https://github.com/pdf-systems-inc/shipping-integration-sdk",
+                "keywords": [
+                    "pdf-systems-inc",
+                    "shipping-integration-sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/pdfsystems/shipping-integration-sdk/tree/1.2.0",
+                    "issues": "https://github.com/pdfsystems/shipping-integration-sdk/issues"
+                },
+                "funding": [
+                    {
+                        "type": "github",
+                        "url": "https://github.com/pdfsystems"
+                    }
+                ]
+            },
+            "dev-main": {
+                "name": "pdfsystems/shipping-integration-sdk",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdfsystems/shipping-integration-sdk.git",
+                    "reference": "661866e54ad85ceb9a395de32586b9e547922b3d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdfsystems/shipping-integration-sdk/zipball/661866e54ad85ceb9a395de32586b9e547922b3d",
+                    "reference": "661866e54ad85ceb9a395de32586b9e547922b3d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.1",
+                    "rpungello/sdk-client": ">=2.1.3 <3.0",
+                    "spatie/data-transfer-object": "^3.9"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.2",
+                    "pestphp/pest": "^1.20",
+                    "spatie/ray": "^1.28"
+                },
+                "time": "2025-10-14T15:23:31+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\ShippingIntegrationSdk\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\ShippingIntegrationSdk\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "SDK for interfacing with PDF's shipping platform",
+                "homepage": "https://github.com/pdfsystems/shipping-integration-sdk",
+                "keywords": [
+                    "pdf-systems-inc",
+                    "shipping-integration-sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/pdfsystems/shipping-integration-sdk/tree/main",
+                    "issues": "https://github.com/pdfsystems/shipping-integration-sdk/issues"
+                },
+                "funding": [
+                    {
+                        "type": "github",
+                        "url": "https://github.com/pdfsystems"
                     }
                 ]
             }
