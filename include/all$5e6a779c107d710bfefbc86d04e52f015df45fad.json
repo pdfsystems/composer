@@ -4414,12 +4414,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pdfsystems/order-track-sdk.git",
-                    "reference": "a7ea1069fa4971149bd130170c5a03b6689ba02f"
+                    "reference": "1c1845f638c16dafe3c3a0aedde1df27d08c2b3e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pdfsystems/order-track-sdk/zipball/a7ea1069fa4971149bd130170c5a03b6689ba02f",
-                    "reference": "a7ea1069fa4971149bd130170c5a03b6689ba02f",
+                    "url": "https://api.github.com/repos/pdfsystems/order-track-sdk/zipball/1c1845f638c16dafe3c3a0aedde1df27d08c2b3e",
+                    "reference": "1c1845f638c16dafe3c3a0aedde1df27d08c2b3e",
                     "shasum": ""
                 },
                 "require": {
@@ -4431,7 +4431,7 @@
                     "pestphp/pest": "^1.20",
                     "spatie/ray": "^1.28"
                 },
-                "time": "2025-11-24T17:13:23+00:00",
+                "time": "2026-01-12T00:58:17+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -5016,12 +5016,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pdfsystems/shipping-integration-sdk.git",
-                    "reference": "7e10ca11d3e3d87fc36223c5937b655cdc2e8a23"
+                    "reference": "d8cbdebb3be58b42769a8b359303535586eaffd3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pdfsystems/shipping-integration-sdk/zipball/7e10ca11d3e3d87fc36223c5937b655cdc2e8a23",
-                    "reference": "7e10ca11d3e3d87fc36223c5937b655cdc2e8a23",
+                    "url": "https://api.github.com/repos/pdfsystems/shipping-integration-sdk/zipball/d8cbdebb3be58b42769a8b359303535586eaffd3",
+                    "reference": "d8cbdebb3be58b42769a8b359303535586eaffd3",
                     "shasum": ""
                 },
                 "require": {
@@ -5034,7 +5034,7 @@
                     "pestphp/pest": "^1.20",
                     "spatie/ray": "^1.28"
                 },
-                "time": "2025-10-14T15:31:27+00:00",
+                "time": "2026-01-05T18:58:55+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -11315,19 +11315,19 @@
                     "issues": "https://github.com/pdfsystems/web-distribution-sdk/issues"
                 }
             },
-            "dev-dependabot/github_actions/actions/checkout-6": {
+            "3.0.3": {
                 "name": "pdfsystems/web-distribution-sdk",
-                "version": "dev-dependabot/github_actions/actions/checkout-6",
-                "version_normalized": "dev-dependabot/github_actions/actions/checkout-6",
+                "version": "3.0.3",
+                "version_normalized": "3.0.3.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pdfsystems/web-distribution-sdk.git",
-                    "reference": "7d1d024e09014f30f29e107dc5ed4d7fdec0d666"
+                    "reference": "abeeeb5a81ef9bd711f9fc1a479c3fce80371d39"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pdfsystems/web-distribution-sdk/zipball/7d1d024e09014f30f29e107dc5ed4d7fdec0d666",
-                    "reference": "7d1d024e09014f30f29e107dc5ed4d7fdec0d666",
+                    "url": "https://api.github.com/repos/pdfsystems/web-distribution-sdk/zipball/abeeeb5a81ef9bd711f9fc1a479c3fce80371d39",
+                    "reference": "abeeeb5a81ef9bd711f9fc1a479c3fce80371d39",
                     "shasum": ""
                 },
                 "require": {
@@ -11342,7 +11342,7 @@
                     "pestphp/pest": "^1.20",
                     "spatie/ray": "^1.28"
                 },
-                "time": "2025-12-01T05:47:22+00:00",
+                "time": "2026-01-16T18:07:40+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -11384,80 +11384,7 @@
                     "web-distribution"
                 ],
                 "support": {
-                    "source": "https://github.com/pdfsystems/web-distribution-sdk/tree/dependabot/github_actions/actions/checkout-6",
-                    "issues": "https://github.com/pdfsystems/web-distribution-sdk/issues"
-                }
-            },
-            "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-7": {
-                "name": "pdfsystems/web-distribution-sdk",
-                "version": "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-7",
-                "version_normalized": "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-7",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/pdfsystems/web-distribution-sdk.git",
-                    "reference": "64ab07ce2ca1cf06e2aad84978a3fd6c3849c4b4"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/pdfsystems/web-distribution-sdk/zipball/64ab07ce2ca1cf06e2aad84978a3fd6c3849c4b4",
-                    "reference": "64ab07ce2ca1cf06e2aad84978a3fd6c3849c4b4",
-                    "shasum": ""
-                },
-                "require": {
-                    "guzzlehttp/guzzle": "^7.4",
-                    "php": "^8.1",
-                    "rpungello/sdk-client": "^2.0",
-                    "spatie/data-transfer-object": "^3.8",
-                    "symfony/validator": "^6.1"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.0",
-                    "pestphp/pest": "^1.20",
-                    "spatie/ray": "^1.28"
-                },
-                "time": "2025-11-01T05:19:27+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "Pdfsystems\\WebDistributionSdk\\": "src"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Pdfsystems\\WebDistributionSdk\\Tests\\": "tests"
-                    }
-                },
-                "scripts": {
-                    "test": [
-                        "vendor/bin/pest"
-                    ],
-                    "test-coverage": [
-                        "vendor/bin/pest --coverage"
-                    ],
-                    "format": [
-                        "vendor/bin/php-cs-fixer fix --allow-risky=yes"
-                    ]
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Pungello",
-                        "email": "rob@pdfsystems.com",
-                        "role": "Developer"
-                    }
-                ],
-                "description": "PHP SDK for Web Distribution",
-                "homepage": "https://github.com/pdfsystems/web-distribution-sdk",
-                "keywords": [
-                    "distribution",
-                    "pdf-systems",
-                    "sdk",
-                    "web-distribution"
-                ],
-                "support": {
-                    "source": "https://github.com/pdfsystems/web-distribution-sdk/tree/dependabot/github_actions/stefanzweifel/git-auto-commit-action-7",
+                    "source": "https://github.com/pdfsystems/web-distribution-sdk/tree/3.0.3",
                     "issues": "https://github.com/pdfsystems/web-distribution-sdk/issues"
                 }
             },
@@ -11468,12 +11395,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pdfsystems/web-distribution-sdk.git",
-                    "reference": "d33ead0a19e518cd2c018f65c7fe703167ac498a"
+                    "reference": "86659a0dfcd731b45c945e396d4bcf6b4b5655e0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pdfsystems/web-distribution-sdk/zipball/d33ead0a19e518cd2c018f65c7fe703167ac498a",
-                    "reference": "d33ead0a19e518cd2c018f65c7fe703167ac498a",
+                    "url": "https://api.github.com/repos/pdfsystems/web-distribution-sdk/zipball/86659a0dfcd731b45c945e396d4bcf6b4b5655e0",
+                    "reference": "86659a0dfcd731b45c945e396d4bcf6b4b5655e0",
                     "shasum": ""
                 },
                 "require": {
@@ -11488,7 +11415,7 @@
                     "pestphp/pest": "^1.20",
                     "spatie/ray": "^1.28"
                 },
-                "time": "2025-10-31T13:15:22+00:00",
+                "time": "2026-01-16T18:08:32+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
