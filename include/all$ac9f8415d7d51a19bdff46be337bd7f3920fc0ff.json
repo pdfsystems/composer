@@ -11614,12 +11614,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pdfsystems/web-distribution-sdk.git",
-                    "reference": "c5e5e916cfbc728756736b0733a84e4ab0c033f4"
+                    "reference": "a08c2d53efeeb63189e39f6e4699de82f819036b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pdfsystems/web-distribution-sdk/zipball/c5e5e916cfbc728756736b0733a84e4ab0c033f4",
-                    "reference": "c5e5e916cfbc728756736b0733a84e4ab0c033f4",
+                    "url": "https://api.github.com/repos/pdfsystems/web-distribution-sdk/zipball/a08c2d53efeeb63189e39f6e4699de82f819036b",
+                    "reference": "a08c2d53efeeb63189e39f6e4699de82f819036b",
                     "shasum": ""
                 },
                 "require": {
@@ -11634,7 +11634,7 @@
                     "pestphp/pest": "^1.20",
                     "spatie/ray": "^1.28"
                 },
-                "time": "2026-03-05T17:49:27+00:00",
+                "time": "2026-03-05T18:27:02+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -11676,7 +11676,7 @@
                     "web-distribution"
                 ],
                 "support": {
-                    "source": "https://github.com/pdfsystems/web-distribution-sdk/tree/3.0.6",
+                    "source": "https://github.com/pdfsystems/web-distribution-sdk/tree/main",
                     "issues": "https://github.com/pdfsystems/web-distribution-sdk/issues"
                 }
             }
