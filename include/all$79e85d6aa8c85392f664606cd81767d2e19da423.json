@@ -11607,19 +11607,19 @@
                     "issues": "https://github.com/pdfsystems/web-distribution-sdk/issues"
                 }
             },
-            "dev-main": {
+            "3.1.0": {
                 "name": "pdfsystems/web-distribution-sdk",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "3.1.0",
+                "version_normalized": "3.1.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pdfsystems/web-distribution-sdk.git",
-                    "reference": "a08c2d53efeeb63189e39f6e4699de82f819036b"
+                    "reference": "08358716b7f84e46055357772d40a68837c653e9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pdfsystems/web-distribution-sdk/zipball/a08c2d53efeeb63189e39f6e4699de82f819036b",
-                    "reference": "a08c2d53efeeb63189e39f6e4699de82f819036b",
+                    "url": "https://api.github.com/repos/pdfsystems/web-distribution-sdk/zipball/08358716b7f84e46055357772d40a68837c653e9",
+                    "reference": "08358716b7f84e46055357772d40a68837c653e9",
                     "shasum": ""
                 },
                 "require": {
@@ -11634,7 +11634,80 @@
                     "pestphp/pest": "^1.20",
                     "spatie/ray": "^1.28"
                 },
-                "time": "2026-03-05T18:27:02+00:00",
+                "time": "2026-03-24T18:43:52+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\WebDistributionSdk\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\WebDistributionSdk\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "PHP SDK for Web Distribution",
+                "homepage": "https://github.com/pdfsystems/web-distribution-sdk",
+                "keywords": [
+                    "distribution",
+                    "pdf-systems",
+                    "sdk",
+                    "web-distribution"
+                ],
+                "support": {
+                    "source": "https://github.com/pdfsystems/web-distribution-sdk/tree/3.1.0",
+                    "issues": "https://github.com/pdfsystems/web-distribution-sdk/issues"
+                }
+            },
+            "dev-main": {
+                "name": "pdfsystems/web-distribution-sdk",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdfsystems/web-distribution-sdk.git",
+                    "reference": "1887caff8f3a5077e745c2aa5fbcc4d4b067733b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdfsystems/web-distribution-sdk/zipball/1887caff8f3a5077e745c2aa5fbcc4d4b067733b",
+                    "reference": "1887caff8f3a5077e745c2aa5fbcc4d4b067733b",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.4",
+                    "php": "^8.1",
+                    "rpungello/sdk-client": "^2.0",
+                    "spatie/data-transfer-object": "^3.8",
+                    "symfony/validator": "^6.1"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.0",
+                    "pestphp/pest": "^1.20",
+                    "spatie/ray": "^1.28"
+                },
+                "time": "2026-03-24T18:45:23+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
