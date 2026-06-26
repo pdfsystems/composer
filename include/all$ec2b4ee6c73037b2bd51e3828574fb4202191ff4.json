@@ -4578,6 +4578,156 @@
                     }
                 ]
             },
+            "dev-dependabot/github_actions/actions/checkout-7": {
+                "name": "pdfsystems/order-track-sdk",
+                "version": "dev-dependabot/github_actions/actions/checkout-7",
+                "version_normalized": "dev-dependabot/github_actions/actions/checkout-7",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdfsystems/order-track-sdk.git",
+                    "reference": "0a012596769fe7a28dbb11a4b5bd376025aef2e4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdfsystems/order-track-sdk/zipball/0a012596769fe7a28dbb11a4b5bd376025aef2e4",
+                    "reference": "0a012596769fe7a28dbb11a4b5bd376025aef2e4",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.1",
+                    "rpungello/sdk-client": "^2.0"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.13",
+                    "pestphp/pest": "^1.20",
+                    "spatie/ray": "^1.28"
+                },
+                "time": "2026-06-22T00:53:01+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\OrderTrackSdk\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\OrderTrackSdk\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "SDK for Order-Track v4 API",
+                "homepage": "https://github.com/pdfsystems/order-track-sdk",
+                "keywords": [
+                    "order-track",
+                    "order-track-sdk",
+                    "pdf-systems-inc"
+                ],
+                "support": {
+                    "source": "https://github.com/pdfsystems/order-track-sdk/tree/dependabot/github_actions/actions/checkout-7",
+                    "issues": "https://github.com/pdfsystems/order-track-sdk/issues"
+                },
+                "funding": [
+                    {
+                        "type": "github",
+                        "url": "https://github.com/pdf-systems-inc"
+                    }
+                ]
+            },
+            "dev-dependabot/github_actions/dependabot/fetch-metadata-3.1.0": {
+                "name": "pdfsystems/order-track-sdk",
+                "version": "dev-dependabot/github_actions/dependabot/fetch-metadata-3.1.0",
+                "version_normalized": "dev-dependabot/github_actions/dependabot/fetch-metadata-3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdfsystems/order-track-sdk.git",
+                    "reference": "559afa0371bc6264f6e9c1391f73fba0a1174bd8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdfsystems/order-track-sdk/zipball/559afa0371bc6264f6e9c1391f73fba0a1174bd8",
+                    "reference": "559afa0371bc6264f6e9c1391f73fba0a1174bd8",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.1",
+                    "rpungello/sdk-client": "^2.0"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.13",
+                    "pestphp/pest": "^1.20",
+                    "spatie/ray": "^1.28"
+                },
+                "time": "2026-04-27T00:54:53+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\OrderTrackSdk\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\OrderTrackSdk\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "SDK for Order-Track v4 API",
+                "homepage": "https://github.com/pdfsystems/order-track-sdk",
+                "keywords": [
+                    "order-track",
+                    "order-track-sdk",
+                    "pdf-systems-inc"
+                ],
+                "support": {
+                    "source": "https://github.com/pdfsystems/order-track-sdk/tree/dependabot/github_actions/dependabot/fetch-metadata-3.1.0",
+                    "issues": "https://github.com/pdfsystems/order-track-sdk/issues"
+                },
+                "funding": [
+                    {
+                        "type": "github",
+                        "url": "https://github.com/pdf-systems-inc"
+                    }
+                ]
+            },
             "dev-main": {
                 "name": "pdfsystems/order-track-sdk",
                 "version": "dev-main",
@@ -5105,19 +5255,19 @@
                     }
                 ]
             },
-            "dev-dependabot/github_actions/actions/checkout-6": {
+            "dev-dependabot/github_actions/actions/checkout-7": {
                 "name": "pdfsystems/shipping-integration-sdk",
-                "version": "dev-dependabot/github_actions/actions/checkout-6",
-                "version_normalized": "dev-dependabot/github_actions/actions/checkout-6",
+                "version": "dev-dependabot/github_actions/actions/checkout-7",
+                "version_normalized": "dev-dependabot/github_actions/actions/checkout-7",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pdfsystems/shipping-integration-sdk.git",
-                    "reference": "b574b2d468f79d3700619e5cb51c735936686d65"
+                    "reference": "d8eae956b79cc942350c4aeed70b4cd6157599f4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pdfsystems/shipping-integration-sdk/zipball/b574b2d468f79d3700619e5cb51c735936686d65",
-                    "reference": "b574b2d468f79d3700619e5cb51c735936686d65",
+                    "url": "https://api.github.com/repos/pdfsystems/shipping-integration-sdk/zipball/d8eae956b79cc942350c4aeed70b4cd6157599f4",
+                    "reference": "d8eae956b79cc942350c4aeed70b4cd6157599f4",
                     "shasum": ""
                 },
                 "require": {
@@ -5130,7 +5280,7 @@
                     "pestphp/pest": "^1.20",
                     "spatie/ray": "^1.28"
                 },
-                "time": "2025-11-24T19:08:57+00:00",
+                "time": "2026-06-22T18:34:15+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -5170,7 +5320,82 @@
                     "shipping-integration-sdk"
                 ],
                 "support": {
-                    "source": "https://github.com/pdfsystems/shipping-integration-sdk/tree/dependabot/github_actions/actions/checkout-6",
+                    "source": "https://github.com/pdfsystems/shipping-integration-sdk/tree/dependabot/github_actions/actions/checkout-7",
+                    "issues": "https://github.com/pdfsystems/shipping-integration-sdk/issues"
+                },
+                "funding": [
+                    {
+                        "type": "github",
+                        "url": "https://github.com/pdfsystems"
+                    }
+                ]
+            },
+            "dev-dependabot/github_actions/dependabot/fetch-metadata-3.1.0": {
+                "name": "pdfsystems/shipping-integration-sdk",
+                "version": "dev-dependabot/github_actions/dependabot/fetch-metadata-3.1.0",
+                "version_normalized": "dev-dependabot/github_actions/dependabot/fetch-metadata-3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdfsystems/shipping-integration-sdk.git",
+                    "reference": "aa08ecba9bada13dfb66dea768f6f3cf8dbe9c88"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdfsystems/shipping-integration-sdk/zipball/aa08ecba9bada13dfb66dea768f6f3cf8dbe9c88",
+                    "reference": "aa08ecba9bada13dfb66dea768f6f3cf8dbe9c88",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.1",
+                    "rpungello/sdk-client": ">=2.1.3 <3.0",
+                    "spatie/data-transfer-object": "^3.9"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.2",
+                    "pestphp/pest": "^1.20",
+                    "spatie/ray": "^1.28"
+                },
+                "time": "2026-04-20T20:50:43+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\ShippingIntegrationSdk\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\ShippingIntegrationSdk\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "SDK for interfacing with PDF's shipping platform",
+                "homepage": "https://github.com/pdfsystems/shipping-integration-sdk",
+                "keywords": [
+                    "pdf-systems-inc",
+                    "shipping-integration-sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/pdfsystems/shipping-integration-sdk/tree/dependabot/github_actions/dependabot/fetch-metadata-3.1.0",
                     "issues": "https://github.com/pdfsystems/shipping-integration-sdk/issues"
                 },
                 "funding": [
@@ -11851,19 +12076,19 @@
                     "issues": "https://github.com/pdfsystems/web-distribution-sdk/issues"
                 }
             },
-            "dev-main": {
+            "3.1.1": {
                 "name": "pdfsystems/web-distribution-sdk",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "3.1.1",
+                "version_normalized": "3.1.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pdfsystems/web-distribution-sdk.git",
-                    "reference": "1887caff8f3a5077e745c2aa5fbcc4d4b067733b"
+                    "reference": "3af0718eeb0d7eedb22a4f5b90ff30bf4f07d0e6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pdfsystems/web-distribution-sdk/zipball/1887caff8f3a5077e745c2aa5fbcc4d4b067733b",
-                    "reference": "1887caff8f3a5077e745c2aa5fbcc4d4b067733b",
+                    "url": "https://api.github.com/repos/pdfsystems/web-distribution-sdk/zipball/3af0718eeb0d7eedb22a4f5b90ff30bf4f07d0e6",
+                    "reference": "3af0718eeb0d7eedb22a4f5b90ff30bf4f07d0e6",
                     "shasum": ""
                 },
                 "require": {
@@ -11878,7 +12103,80 @@
                     "pestphp/pest": "^1.20",
                     "spatie/ray": "^1.28"
                 },
-                "time": "2026-03-24T18:45:23+00:00",
+                "time": "2026-06-26T15:03:37+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\WebDistributionSdk\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\WebDistributionSdk\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "PHP SDK for Web Distribution",
+                "homepage": "https://github.com/pdfsystems/web-distribution-sdk",
+                "keywords": [
+                    "distribution",
+                    "pdf-systems",
+                    "sdk",
+                    "web-distribution"
+                ],
+                "support": {
+                    "source": "https://github.com/pdfsystems/web-distribution-sdk/tree/3.1.1",
+                    "issues": "https://github.com/pdfsystems/web-distribution-sdk/issues"
+                }
+            },
+            "dev-main": {
+                "name": "pdfsystems/web-distribution-sdk",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdfsystems/web-distribution-sdk.git",
+                    "reference": "c93322d9a53ba31232b66112b99a5f6f81d817a3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdfsystems/web-distribution-sdk/zipball/c93322d9a53ba31232b66112b99a5f6f81d817a3",
+                    "reference": "c93322d9a53ba31232b66112b99a5f6f81d817a3",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.4",
+                    "php": "^8.1",
+                    "rpungello/sdk-client": "^2.0",
+                    "spatie/data-transfer-object": "^3.8",
+                    "symfony/validator": "^6.1"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.0",
+                    "pestphp/pest": "^1.20",
+                    "spatie/ray": "^1.28"
+                },
+                "time": "2026-06-26T15:06:02+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
