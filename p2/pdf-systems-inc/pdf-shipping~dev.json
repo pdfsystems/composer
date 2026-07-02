@@ -1,0 +1,274 @@
+{
+    "packages": {
+        "pdf-systems-inc/pdf-shipping": [
+            {
+                "name": "pdf-systems-inc/pdf-shipping",
+                "version": "dev-dependabot/github_actions/actions/checkout-4",
+                "version_normalized": "dev-dependabot/github_actions/actions/checkout-4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdf-systems-inc/laravel-shipping.git",
+                    "reference": "48ecc3df84463bf58f7fded5da19592c370f074b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdf-systems-inc/laravel-shipping/zipball/48ecc3df84463bf58f7fded5da19592c370f074b",
+                    "reference": "48ecc3df84463bf58f7fded5da19592c370f074b",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.4",
+                    "illuminate/contracts": "^9.0",
+                    "php": "^8.1",
+                    "spatie/data-transfer-object": "^3.8",
+                    "spatie/laravel-package-tools": "^1.9.2"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^6.0",
+                    "orchestra/testbench": "^7.0",
+                    "pestphp/pest": "^1.21",
+                    "pestphp/pest-plugin-laravel": "^1.1",
+                    "phpunit/phpunit": "^9.5",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2023-09-11T03:05:51+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Pdfsystems\\PdfShipping\\PdfShippingServiceProvider"
+                        ],
+                        "aliases": {
+                            "PdfShipping": "Pdfsystems\\PdfShipping\\Facades\\PdfShipping"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\PdfShipping\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\PdfShipping\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Package for interfacing with PDF's shipping integration platform",
+                "homepage": "https://github.com/pdf-systems-inc/pdf-shipping",
+                "keywords": [
+                    "PDF Systems, Inc.",
+                    "laravel",
+                    "pdf-shipping"
+                ],
+                "support": {
+                    "source": "https://github.com/pdf-systems-inc/laravel-shipping/tree/dependabot/github_actions/actions/checkout-4",
+                    "issues": "https://github.com/pdf-systems-inc/laravel-shipping/issues"
+                }
+            },
+            {
+                "name": "pdf-systems-inc/pdf-shipping",
+                "version": "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-5",
+                "version_normalized": "dev-dependabot/github_actions/stefanzweifel/git-auto-commit-action-5",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdf-systems-inc/laravel-shipping.git",
+                    "reference": "ef5fc1a4a16fe4a7e935cdbcf4201c9e48029757"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdf-systems-inc/laravel-shipping/zipball/ef5fc1a4a16fe4a7e935cdbcf4201c9e48029757",
+                    "reference": "ef5fc1a4a16fe4a7e935cdbcf4201c9e48029757",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.4",
+                    "illuminate/contracts": "^9.0",
+                    "php": "^8.1",
+                    "spatie/data-transfer-object": "^3.8",
+                    "spatie/laravel-package-tools": "^1.9.2"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^6.0",
+                    "orchestra/testbench": "^7.0",
+                    "pestphp/pest": "^1.21",
+                    "pestphp/pest-plugin-laravel": "^1.1",
+                    "phpunit/phpunit": "^9.5",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2023-10-09T03:31:52+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Pdfsystems\\PdfShipping\\PdfShippingServiceProvider"
+                        ],
+                        "aliases": {
+                            "PdfShipping": "Pdfsystems\\PdfShipping\\Facades\\PdfShipping"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\PdfShipping\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\PdfShipping\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Package for interfacing with PDF's shipping integration platform",
+                "homepage": "https://github.com/pdf-systems-inc/pdf-shipping",
+                "keywords": [
+                    "PDF Systems, Inc.",
+                    "laravel",
+                    "pdf-shipping"
+                ],
+                "support": {
+                    "source": "https://github.com/pdf-systems-inc/laravel-shipping/tree/dependabot/github_actions/stefanzweifel/git-auto-commit-action-5",
+                    "issues": "https://github.com/pdf-systems-inc/laravel-shipping/issues"
+                }
+            },
+            {
+                "name": "pdf-systems-inc/pdf-shipping",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdf-systems-inc/laravel-shipping.git",
+                    "reference": "2d21b6fa42f7e031766d0a0aecc824a03a6ff33d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdf-systems-inc/laravel-shipping/zipball/2d21b6fa42f7e031766d0a0aecc824a03a6ff33d",
+                    "reference": "2d21b6fa42f7e031766d0a0aecc824a03a6ff33d",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^7.4",
+                    "illuminate/contracts": "^9.0",
+                    "php": "^8.1",
+                    "spatie/data-transfer-object": "^3.8",
+                    "spatie/laravel-package-tools": "^1.9.2"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "nunomaduro/collision": "^6.0",
+                    "orchestra/testbench": "^7.0",
+                    "pestphp/pest": "^1.21",
+                    "pestphp/pest-plugin-laravel": "^1.1",
+                    "phpunit/phpunit": "^9.5",
+                    "spatie/laravel-ray": "^1.26"
+                },
+                "time": "2023-07-03T03:37:53+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Pdfsystems\\PdfShipping\\PdfShippingServiceProvider"
+                        ],
+                        "aliases": {
+                            "PdfShipping": "Pdfsystems\\PdfShipping\\Facades\\PdfShipping"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\PdfShipping\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\PdfShipping\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "analyse": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "Package for interfacing with PDF's shipping integration platform",
+                "homepage": "https://github.com/pdf-systems-inc/pdf-shipping",
+                "keywords": [
+                    "PDF Systems, Inc.",
+                    "laravel",
+                    "pdf-shipping"
+                ],
+                "support": {
+                    "source": "https://github.com/pdf-systems-inc/laravel-shipping/tree/main",
+                    "issues": "https://github.com/pdf-systems-inc/laravel-shipping/issues"
+                }
+            }
+        ]
+    }
+}

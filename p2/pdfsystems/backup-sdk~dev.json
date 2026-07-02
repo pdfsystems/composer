@@ -1,0 +1,82 @@
+{
+    "packages": {
+        "pdfsystems/backup-sdk": [
+            {
+                "name": "pdfsystems/backup-sdk",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdfsystems/backup-sdk.git",
+                    "reference": "153fc890b44b05440f835bc4efe1a5623192c1f0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdfsystems/backup-sdk/zipball/153fc890b44b05440f835bc4efe1a5623192c1f0",
+                    "reference": "153fc890b44b05440f835bc4efe1a5623192c1f0",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-fileinfo": "*",
+                    "php": "^8.2",
+                    "rpungello/sdk-client": "^2.0"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.0",
+                    "pestphp/pest": "^3.0",
+                    "spatie/ray": "^1.28"
+                },
+                "time": "2025-12-04T21:39:35+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\BackupSdk\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\BackupSdk\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/pint"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "SDK for interfacing with PDF's application backup provider",
+                "homepage": "https://github.com/pdfsystems/backup-sdk",
+                "keywords": [
+                    "backup-sdk",
+                    "pdfsystems"
+                ],
+                "support": {
+                    "source": "https://github.com/pdfsystems/backup-sdk/tree/main",
+                    "issues": "https://github.com/pdfsystems/backup-sdk/issues"
+                },
+                "funding": [
+                    {
+                        "type": "github",
+                        "url": "https://github.com/pdfsystems"
+                    }
+                ]
+            }
+        ]
+    }
+}

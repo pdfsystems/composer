@@ -1,0 +1,232 @@
+{
+    "packages": {
+        "pdfsystems/order-track-sdk": [
+            {
+                "name": "pdfsystems/order-track-sdk",
+                "version": "dev-dependabot/github_actions/actions/checkout-7",
+                "version_normalized": "dev-dependabot/github_actions/actions/checkout-7",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdfsystems/order-track-sdk.git",
+                    "reference": "0a012596769fe7a28dbb11a4b5bd376025aef2e4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdfsystems/order-track-sdk/zipball/0a012596769fe7a28dbb11a4b5bd376025aef2e4",
+                    "reference": "0a012596769fe7a28dbb11a4b5bd376025aef2e4",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.1",
+                    "rpungello/sdk-client": "^2.0"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.13",
+                    "pestphp/pest": "^1.20",
+                    "spatie/ray": "^1.28"
+                },
+                "time": "2026-06-22T00:53:01+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\OrderTrackSdk\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\OrderTrackSdk\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "SDK for Order-Track v4 API",
+                "homepage": "https://github.com/pdfsystems/order-track-sdk",
+                "keywords": [
+                    "order-track",
+                    "order-track-sdk",
+                    "pdf-systems-inc"
+                ],
+                "support": {
+                    "source": "https://github.com/pdfsystems/order-track-sdk/tree/dependabot/github_actions/actions/checkout-7",
+                    "issues": "https://github.com/pdfsystems/order-track-sdk/issues"
+                },
+                "funding": [
+                    {
+                        "type": "github",
+                        "url": "https://github.com/pdf-systems-inc"
+                    }
+                ]
+            },
+            {
+                "name": "pdfsystems/order-track-sdk",
+                "version": "dev-dependabot/github_actions/dependabot/fetch-metadata-3.1.0",
+                "version_normalized": "dev-dependabot/github_actions/dependabot/fetch-metadata-3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdfsystems/order-track-sdk.git",
+                    "reference": "559afa0371bc6264f6e9c1391f73fba0a1174bd8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdfsystems/order-track-sdk/zipball/559afa0371bc6264f6e9c1391f73fba0a1174bd8",
+                    "reference": "559afa0371bc6264f6e9c1391f73fba0a1174bd8",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.1",
+                    "rpungello/sdk-client": "^2.0"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.13",
+                    "pestphp/pest": "^1.20",
+                    "spatie/ray": "^1.28"
+                },
+                "time": "2026-04-27T00:54:53+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\OrderTrackSdk\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\OrderTrackSdk\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "SDK for Order-Track v4 API",
+                "homepage": "https://github.com/pdfsystems/order-track-sdk",
+                "keywords": [
+                    "order-track",
+                    "order-track-sdk",
+                    "pdf-systems-inc"
+                ],
+                "support": {
+                    "source": "https://github.com/pdfsystems/order-track-sdk/tree/dependabot/github_actions/dependabot/fetch-metadata-3.1.0",
+                    "issues": "https://github.com/pdfsystems/order-track-sdk/issues"
+                },
+                "funding": [
+                    {
+                        "type": "github",
+                        "url": "https://github.com/pdf-systems-inc"
+                    }
+                ]
+            },
+            {
+                "name": "pdfsystems/order-track-sdk",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/pdfsystems/order-track-sdk.git",
+                    "reference": "327b9a8483b1f9e28d786cecbe61e0b02e1e7640"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/pdfsystems/order-track-sdk/zipball/327b9a8483b1f9e28d786cecbe61e0b02e1e7640",
+                    "reference": "327b9a8483b1f9e28d786cecbe61e0b02e1e7640",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^8.1",
+                    "rpungello/sdk-client": "^2.0"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.13",
+                    "pestphp/pest": "^1.20",
+                    "spatie/ray": "^1.28"
+                },
+                "time": "2026-03-27T15:16:00+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "Pdfsystems\\OrderTrackSdk\\": "src"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Pdfsystems\\OrderTrackSdk\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/pest"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/pest --coverage"
+                    ],
+                    "format": [
+                        "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Pungello",
+                        "email": "rob@pdfsystems.com",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "SDK for Order-Track v4 API",
+                "homepage": "https://github.com/pdfsystems/order-track-sdk",
+                "keywords": [
+                    "order-track",
+                    "order-track-sdk",
+                    "pdf-systems-inc"
+                ],
+                "support": {
+                    "source": "https://github.com/pdfsystems/order-track-sdk/tree/main",
+                    "issues": "https://github.com/pdfsystems/order-track-sdk/issues"
+                },
+                "funding": [
+                    {
+                        "type": "github",
+                        "url": "https://github.com/pdf-systems-inc"
+                    }
+                ]
+            }
+        ]
+    }
+}

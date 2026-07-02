@@ -1,8 +1,17 @@
 {
     "packages": [],
     "includes": {
-        "include/all$3c196884600ad79da190852d2a2589c4a7a24b40.json": {
-            "sha1": "3c196884600ad79da190852d2a2589c4a7a24b40"
+        "include/all$2f2dadfd77322ea88d9b1b27d3656da1c09d75d3.json": {
+            "sha1": "2f2dadfd77322ea88d9b1b27d3656da1c09d75d3"
         }
-    }
+    },
+    "metadata-url": "/p2/%package%.json",
+    "available-packages": [
+        "pdf-systems-inc/pdf-shipping",
+        "pdfsystems/backup-sdk",
+        "pdfsystems/backup-sdk-laravel",
+        "pdfsystems/order-track-sdk",
+        "pdfsystems/shipping-integration-sdk",
+        "pdfsystems/web-distribution-sdk"
+    ]
 }
