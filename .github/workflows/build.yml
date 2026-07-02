@@ -1,7 +1,7 @@
+---
 name: Build package repository
 on:
   push:
-  # Allow external repositories to trigger builds
   workflow_dispatch:
 permissions:
   contents: write
@@ -9,23 +9,25 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: php-actions/composer@v6
-        with:
-          php_version: "7.4"
-          version: 1
-
-      - name: Configure access token
-        run: composer -g config github-oauth.github.com ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Build package repository
-        run: vendor/bin/satis build --stats satis.json public
-
+      - uses: actions/checkout@v7
+      - name: Pull Docker image
+        run: |
+          docker pull ghcr.io/composer/satis:latest
+      - name: Build Satis package repository
+        env:
+          WORKSPACE_PATH: ${{ github.workspace }}
+          GITHUB_TOKEN: ${{ secrets.SATIS_AUTH_TOKEN }}
+        run: |
+          docker run --rm \
+          --user "$(id -u):$(id -g)" \
+          -v $WORKSPACE_PATH:/build \
+          -e COMPOSER_AUTH="{\"github-oauth\": {\"github.com\": \"${GITHUB_TOKEN}\"}}" \
+          ghcr.io/composer/satis:latest
+      - name: Verify build output
+        run: ls -la ${{ github.workspace }}
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ${{ github.workspace }}/output
           cname: composer.pdfsystems.com
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
