@@ -81,12 +81,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/pdfsystems/web-distribution-sdk.git",
-                    "reference": "4565808c644b60146a3ba5f9050635a3dd59ede2"
+                    "reference": "4e223812045c2ef98c610720fbbffb2b7af9cdf3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/pdfsystems/web-distribution-sdk/zipball/4565808c644b60146a3ba5f9050635a3dd59ede2",
-                    "reference": "4565808c644b60146a3ba5f9050635a3dd59ede2",
+                    "url": "https://api.github.com/repos/pdfsystems/web-distribution-sdk/zipball/4e223812045c2ef98c610720fbbffb2b7af9cdf3",
+                    "reference": "4e223812045c2ef98c610720fbbffb2b7af9cdf3",
                     "shasum": ""
                 },
                 "require": {
@@ -101,7 +101,7 @@
                     "pestphp/pest": "^1.20",
                     "spatie/ray": "^1.28"
                 },
-                "time": "2026-06-26T15:59:20+00:00",
+                "time": "2026-08-04T20:45:33+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
